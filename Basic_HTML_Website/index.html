@@ -1,27 +1,41 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>Ramon's Restaurant</title>
 </head>
 <body>
-    <a href="index.html" target="_blank">Ramon's Restaurant</a>
-<br /><em>This website is under construction as of <time datetime="2022-10-13">today</time>.</em>
-    <br />
-    <article>This is the beginning of an article.
-    <details>
-        <summary>Details summary tag</summary>
-        This is the details section of the article
-    </details>
-    </article>
+
+    <!--Navigation-->
+    <nav>
+        <a href="one_page_website.html">&nbsp;Home&nbsp;</a>
+        <a href="#gallery">&nbsp;Gallery&nbsp;</a>
+        <a href="#contact">&nbsp;Contact Us&nbsp;</a>
+    </nav>
+    <!--End of navigation-->
+
+    <!--Home Page Section-->
+    <section id="home">
+        <h1>Ramon's Restaurant</h1>
+        <article>
+            Come visit us at ---!
+            <details>
+                <summary>Our story</summary>
+                This is the details section of the article
+            </details>
+        </article>
+    </section>
+    <!--End of homepage section-->
+
+    <!--Gallery-->
     <section>
         <div id="gallery">
             <h1>Gallery</h1>
             <!---Photo Container 1-->
             <div>
                 <div>
-                    <img src="./images/thumb/thumbnail_1.jpg" alt="Picture of one of our meals"/>
+                    <img src="./images/thumb/thumbnail_1.jpg" alt="Picture of one of our meals" />
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -48,7 +62,6 @@
             <div>
                 <div>
                     <img src="./images/thumb/thumbnail_3.jpg" alt="Picture of our kitchen" />
-
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -62,7 +75,6 @@
             <div>
                 <div>
                     <img src="./images/thumb/thumbnail_4.jpg" alt="Picture of the outside view of our location" />
-
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -76,7 +88,6 @@
             <div>
                 <div>
                     <img src="./images/thumb/thumbnail_5.jpg" alt="Picture of our grill" />
-
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -90,7 +101,6 @@
             <div>
                 <div>
                     <img src="./images/thumb/thumbnail_6.jpg" alt="Picture of our sodas" />
-
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -104,7 +114,6 @@
             <div>
                 <div>
                     <img src="./images/thumb/thumbnail_7.jpg" alt="Picture of our cold desserts" />
-
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -118,7 +127,6 @@
             <div>
                 <div>
                     <img src="./images/thumb/thumbnail_8.jpg" alt="Picture of our desserts" />
-
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -132,7 +140,6 @@
             <div>
                 <div>
                     <img src="./images/thumb/thumbnail_9.jpeg" alt="Picture of our rice." />
-
                     <div>
                         <h3>Click to enlarge</h3>
                         <p>
@@ -144,5 +151,25 @@
             <!--- End of Photo Container 9-->
         </div>
     </section>
+    <!--End of Gallery-->
+
+    <!--Contact form-->
+    <section id="contact">
+        <h1>Contact us</h1>
+        <form action="" method="get">
+            Name: <input type="text" name="Name" /><br />
+            Email: <input type="text" name="Email" /><br />
+            <input id="button" type="submit" value="Submit" />
+        </form>
+    </section>
+    <!--End of contact form-->
+
 </body>
+
+<!--Footer-->
+<footer>
+    <em>This website is under construction as of <time datetime="2022-10-13">today</time>.</em>
+</footer>
+<!--End of footer-->
+
 </html>
