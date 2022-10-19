@@ -50,13 +50,18 @@ img {
 }
 
 input {
-    border-radius : unset
+    border-width : 1px;
+    border-radius : unset;
+    margin-bottom : 10px;
+    border-style : groove;
 }
 
-#button {
+input[type="submit"] {
     color : blue;
-    position : center;
+    margin-left : 9%;
 }
+
+
 footer {
     color : white;
     background : black;
