@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ramon's Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="css/one_page_website.css" />
+    <script src="js/one_page_website.js" defer></script>
+
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav>
+        <a href=#home>&nbsp;Home&nbsp;</a>
+        <a href="#gallery">&nbsp;Gallery&nbsp;</a>
+        <a href="#videos">&nbsp;Videos&nbsp;</a>
+        <a href="#contact">&nbsp;Contact Us&nbsp;</a>
+    </nav>
+    <!--End of navigation-->
+
+    <!--Home Page Section-->
+
+    <section id="home">
+        <h1>Ramon's Restaurant</h1>
+        <article>
+            We are open Sunday-Saturday. Come visit!
+            <details>
+                <summary>Our story</summary>
+                Here lies our story.
+            </details>
+        </article>
+    </section>
+
+    <!--End of homepage section-->
+
+
+    <!--Gallery Section-->
+
+    <section id="gallery">
+        <h1>Gallery</h1>
+
+
+        <!-- Images used to open the lightbox -->
+        <div class="row1">
+            <div class="column">
+                <img src="./images/thumb/thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/thumb/thumbnail_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/thumb/thumbnail_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/thumb/thumbnail_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/thumb/thumbnail_5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+
+        </div>
+
+        <div class="row2">
+            <div class="column">
+                <img src="./images/thumb/thumbnail_6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/thumb/thumbnail_7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/thumb/thumbnail_8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            </div>
+            <div class="column">
+                <img src="./images/thumb/thumbnail_9.jpeg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+            </div>
+        </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                <div class="numbertext">1 / 9</div>
+                <img src="./images/thumb/thumbnail_1.jpg" >
+                </div>
+
+                <div class="mySlides">
+                <div class="numbertext">2 / 9</div>
+                <img src="./images/thumb/thumbnail_2.jpg" >
+                </div>
+
+                <div class="mySlides">
+                <div class="numbertext">3 / 9</div>
+                <img src="./images/thumb/thumbnail_3.jpg" >
+                </div>
+
+                <div class="mySlides">
+                <div class="numbertext">4 / 9</div>
+                <img src="./images/thumb/thumbnail_4.jpg" >
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="./images/thumb/thumbnail_5.jpg" >
+                    </div>
+
+                <div class="mySlides">
+                        <div class="numbertext">6 / 9</div>
+                        <img src="./images/thumb/thumbnail_6.jpg">
+                        </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="./images/thumb/thumbnail_7.jpg">
+                    </div>
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="./images/thumb/thumbnail_8.jpg">
+                    </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="./images/thumb/thumbnail_9.jpeg">
+                    </div>
+            
+
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption text -->
+                <div class="caption-container">
+                <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                <img class="demo" src="./images/thumb/thumbnail_1.jpg" onclick="currentSlide(1)" alt="One of our special meals">
+                </div>
+
+                <div class="column">
+                <img class="demo" src="./images/thumb/thumbnail_2.jpg" onclick="currentSlide(2)" alt="Our dining area">
+                </div>
+
+                <div class="column">
+                <img class="demo" src="./images/thumb/thumbnail_3.jpg" onclick="currentSlide(3)" alt="Our kitchen">
+                </div>
+
+                <div class="column">
+                <img class="demo" src="./images/thumb/thumbnail_4.jpg" onclick="currentSlide(4)" alt="Outside view of our location">
+                </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/thumb/thumbnail_5.jpg" onclick="currentSlide(5)" alt="Our grill">
+                    </div>
+
+                <div class="column">
+                    <img class="demo" src="./images/thumb/thumbnail_6.jpg" onclick="currentSlide(6)" alt="Beverages">
+                    </div>
+                <div class="column">
+                    <img class="demo" src="./images/thumb/thumbnail_7.jpg" onclick="currentSlide(7)" alt="Cold desserts">
+                    </div>
+                <div class="column">
+                    <img class="demo" src="./images/thumb/thumbnail_8.jpg" onclick="currentSlide(8)" alt="Freshly made desserts">
+                    </div>
+                
+                <div class="column">
+                    <img class="demo" src="./images/thumb/thumbnail_9.jpeg" onclick="currentSlide(9)" alt="Our delicious rice">
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Gallery Section-->
+
+
+    <!--Videos-->
+    <section id="videos">
+        <h1>Videos</h1>
+        <!--Video 1-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ROIZoGM-y2o"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--Video 2-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OJXP7n6jJuQ"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--Video 3-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7Vp3CjG0tB0"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <!--End of videos section-->
+    <!--Contact form-->
+    <section id="contact">
+        <h1>Contact us</h1>
+        <form action="" method="get">
+            Name: <input type="text" name="Name" /><br />
+            Email: <input type="text" name="Email" /><br />
+            <input id="button" type="submit" value="Submit" />
+        </form>
+    </section>
+
+    <!--End of contact form-->
+</body>
+
+<!--Footer-->
+<footer>
+    <em>This website is under construction as of <time datetime="2022-10-13">today</time>.</em>
+</footer>
+<!--End of footer-->
+
+</html>
