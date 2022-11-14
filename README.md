@@ -1,4 +1,4 @@
-# Basic HTML and CSS Projects
+# Basic HTML and CSS
 
 ### Skills Used
 
