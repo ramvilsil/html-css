@@ -2,13 +2,13 @@
 
 </p>
 
-<ins>About</ins>
+### About
 
 This repository consists of various projects developed for practice with Hypertext Markup and Cascading Style Sheets. The following areas are covered - HTML tags, ids, classes, elements, references 
 
 
 
-<ins>Contents</ins> (by path name)
+## Contents (listed by path name)
 
 - Basic_HTML_Website
   - Basic HTML Website
