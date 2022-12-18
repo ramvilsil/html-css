@@ -1,26 +1,6 @@
 # HTML & CSS Exercises
 
 Various web pages developed for practice with HTML and CSS. 
-The following areas are covered - HTML tags, ids, classes, elements, references 
-
-
-## Contents
-
-- Basic_HTML_Website
-  - Basic HTML Website
-
-- Basic_HTML_and_JavaScript_1
-
-- HTML-documents
-
-- One-Page Website 2
-
-- One-Page Website
-
-- VS-Code
-
-- bootstrap4_project
-  - Bootstrap Documentation Project
 
 
 ## Images
